@@ -1,6 +1,9 @@
 
 
-upAll:upZshConfig
+upAll: upZshConfig upSublimePreferences
 
 upZshConfig:
 	cp ~/.zshrc ~/packages/github.com/fqncom/configuration/zsh --remove-destination
+
+upSublimePreferences:
+	cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.*settings ~/packages/github.com/fqncom/configuration/sublime/ --remove-destination
