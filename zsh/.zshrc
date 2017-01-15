@@ -168,6 +168,7 @@ export FDK_EXE
 # ============github============
 # fqncom
 ## configuration
+#ln -s ~/packages/github.com/fqncom/configuration/zsh/.zshrc ~/.zshrc
 
 # ============github============
 # =================fqncom default setting==================
