@@ -152,7 +152,7 @@ alias stree='open -a SourceTree'
 # alias ems="usr/local/Cellar/emacs-plus/25.1/bin/emacs"
 
 # Enable Chinese in Gvim and Emacs
-export LC_CTYPE="zh_CN.UTF-8"
+# export LC_CTYPE="zh_CN.UTF-8"
 
 # coreutils
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
