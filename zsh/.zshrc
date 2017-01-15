@@ -1,0 +1,1 @@
+/Users/fqn/.zshrc
