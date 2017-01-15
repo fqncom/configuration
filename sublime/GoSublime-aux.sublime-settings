@@ -1,0 +1,61 @@
+{
+	"9o.hist./Users/fqn/Projects/ezbuy/goflow/src/gitlab.1dmy.com/ezbuy/spike/vendor/spike/basketindexer":
+	[
+		"go isNormalPrice",
+		"go install"
+	],
+	"9o.hist./Users/fqn/ezbuy_dev/gopath/src/gitlab.1dmy.com/ezbuy/account":
+	[
+		"go build",
+		"make init",
+		"zsh",
+		"la"
+	],
+	"9o.hist./Users/fqn/ezbuy_dev/gopath/src/gitlab.1dmy.com/ezbuy/account/cmd":
+	[
+		"go build",
+		"..",
+		"cd .."
+	],
+	"9o.hist./Users/fqn/ezbuy_dev/gopath/src/gitlab.1dmy.com/ezbuy/delivery":
+	[
+		"go build",
+		"make init"
+	],
+	"9o.hist./Users/fqn/ezbuy_dev/gopath/src/gitlab.1dmy.com/ezbuy/delivery/model":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/fqn/ezbuy_dev/gopath/src/gitlab.1dmy.com/ezbuy/delivery/service":
+	[
+		"go build",
+		"..",
+		"cd .."
+	],
+	"9o.hist./Users/fqn/ezbuy_dev/gopath/src/gitlab.1dmy.com/ezbuy/erpnew/cmd":
+	[
+		"clear",
+		"go build"
+	],
+	"9o.hist./Users/fqn/ezbuy_dev/gopath/src/gitlab.1dmy.com/ezbuy/erpnew/model":
+	[
+		"go clean",
+		"clear",
+		"go build"
+	],
+	"9o.hist./Users/fqn/ezbuy_dev/gopath/src/gitlab.1dmy.com/ezbuy/erpnew/service":
+	[
+		"go build"
+	],
+	"9o.hist./Users/fqn/ezbuy_dev/gopath/src/gitlab.1dmy.com/ezbuy/parcelforce/service/pendingpayment/serviceimpl":
+	[
+		"go build"
+	],
+	"9o.hist./Users/fqn/ezbuy_dev/gopath/src/gitlab.1dmy.com/ezbuy/samsara":
+	[
+		"gst"
+	],
+	"ann": "a16.07.09-1",
+	"install_version": "r16.07.09-1",
+	"version": "r16.07.09-1"
+}
