@@ -149,7 +149,7 @@ source ~/ezbuy_dev/goflow/ezbuy.sh
 alias stree='open -a SourceTree'
 
 # emacs
-alias ems="usr/local/Cellar/emacs-plus/25.1/bin/emacs"
+# alias ems="usr/local/Cellar/emacs-plus/25.1/bin/emacs"
 
 # Enable Chinese in Gvim and Emacs
 export LC_CTYPE="zh_CN.UTF-8"
