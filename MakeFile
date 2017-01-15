@@ -1,0 +1,6 @@
+
+
+upAll:upZshConfig
+
+upZshConfig:
+	cp ~/.zshrc ~/packages/github.com/fqncom/configuration/zsh --remove-destination
