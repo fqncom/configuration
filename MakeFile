@@ -1,16 +1,16 @@
 
 
 # udpate all setting
-upAll: upZshConfig upSublimePreferences
+upall: upzshconfig upsublimepreferences
 
 # zsh config
-upZshConfig:
-	cp ~/.zshrc ~/packages/github.com/fqncom/configuration/zsh --remove-destination
+upzshconfig:
+	cp -f ~/.zshrc ~/packages/github.com/fqncom/configuration/zsh 
 
 # sublime preferences setting
-upSublimePreferences:
-	cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.*settings ~/packages/github.com/fqncom/configuration/sublime/ --remove-destination
+upsublimepreferences:
+	cp -f ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.*settings ~/packages/github.com/fqncom/configuration/sublime/ 
 
 # link file to repo
-linkFile:
+linkfile:
 	# ln -s ~/packages/github.com/fqncom/configuration/zsh/.zshrc ~/.zshrc
