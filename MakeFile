@@ -13,4 +13,4 @@ upsublimepreferences:
 
 # link file to repo
 linkfile:
-	# ln -s ~/packages/github.com/fqncom/configuration/zsh/.zshrc ~/.zshrc
+	# mv ~/.zshrc ~/.zshrc_bak && ln -s ~/packages/github.com/fqncom/configuration/zsh/.zshrc ~/.zshrc
