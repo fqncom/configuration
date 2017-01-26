@@ -53,7 +53,7 @@ plugins=(git git-flow osx go golang man npm sudo svn vi-mode vim-interaction bre
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+# export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -87,6 +87,7 @@ source $ZSH/oh-my-zsh.sh
 # fqn alias
 alias la='ls -a'
 alias zshconfig="subl ~/.zshrc"
+alias zshenv="subl ~/.zshenv"
 alias zshgitconfig='subl $HOME/.oh-my-zsh/plugins/git/git.plugin.zsh'
 
 # fqn git alias
@@ -105,15 +106,15 @@ export EDITOR='subl -w'
 
 
 # set GOPATH & GOROOT
-export GOROOT=/usr/local/Cellar/go/1.7.3/libexec
-export GOPATH=$HOME/ezbuy_dev/goflow
-export GOBIN=$GOPATH/bin
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
+# export GOROOT=/usr/local/Cellar/go/1.7.3/libexec
+# export GOPATH=$HOME/ezbuy_dev/goflow
+# export GOBIN=$GOPATH/bin
+# export PATH=$PATH:$GOPATH/bin
+# export PATH=$PATH:$GOROOT/bin
 
 
 # set vscode path
-export PATH=$PATH:/usr/local/share/dotnet
+# export PATH=$PATH:/usr/local/share/dotnet
 
 
 # autojump plugins
@@ -155,15 +156,15 @@ alias stree='open -a SourceTree'
 # export LC_CTYPE="zh_CN.UTF-8"
 
 # coreutils
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+# export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+# export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # FDK setting
 # Initialization for FDK command line tools.Sun Nov 20 10:57:21 2016
-FDK_EXE="/Users/fqn/bin/FDK/Tools/osx"
-PATH=${PATH}:"/Users/fqn/bin/FDK/Tools/osx"
-export PATH
-export FDK_EXE
+# FDK_EXE="/Users/fqn/bin/FDK/Tools/osx"
+# PATH=${PATH}:"/Users/fqn/bin/FDK/Tools/osx"
+# export PATH
+# export FDK_EXE
 
 # ============github============
 # fqncom
@@ -171,6 +172,10 @@ export FDK_EXE
 #ln -s ~/packages/github.com/fqncom/configuration/zsh/.zshrc ~/.zshrc
 
 # ============github============
+
+# ============emacs=============
+source ~/.zshenv
+# ============emacs=============
 # =================fqncom default setting==================
 
 
